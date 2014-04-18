@@ -9,7 +9,7 @@ if [ -z "$DIR/$PROJECT" ]; then
 	exit 1
 fi
 
-source "$PROJECT.conf"
+source "$DIR/$PROJECT.conf"
 
 HOOKS_DIR="$DIR/hooks/$PROJECT"
 WORKSPACE=$(readlink -f "$WORKSPACE")
