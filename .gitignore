@@ -1,0 +1,5 @@
+*/*
+*.conf
+!hooks/hooks.md
+!sample.conf
+!build.sh
